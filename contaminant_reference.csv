@@ -1,0 +1,36 @@
+contaminant,coal_rank,data_type,value,unit,n_samples,range_or_stdev,source,notes
+Uranium-238,Bituminous,fly_ash_bulk_content,11.2,mg/kg,18,3.15-30.4 (SD 8.19),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Subbituminous,fly_ash_bulk_content,5.63,mg/kg,9,2.35-15.4 (SD 4.37),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Lignite,fly_ash_bulk_content,4.14,mg/kg,4,3.40-5.55 (SD 1.00),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Bituminous,bottom_ash_bulk_content,7.89,mg/kg,26,2.40-17.6 (SD 5.04),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Subbituminous,bottom_ash_bulk_content,6.49,mg/kg,7,2.00-25.9 (SD 7.99),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Lignite,bottom_ash_bulk_content,3.88,mg/kg,4,3.35-4.90 (SD 0.62),EPRI CPInfo Database via EPRI 2014 (3002003774) Table 3-2,
+Uranium-238,Bituminous,fly_ash_bulk_activity,3.21,pCi/g,30,0.81-5.86,Roper et al. 2013 (Health Physics 104:264-269) via EPRI 2014 Table 3-1,eastern bituminous coal fly ash
+Uranium-238,Subbituminous,fly_ash_bulk_activity,3.11,pCi/g,9,1.94-5.64,Roper et al. 2013 via EPRI 2014 Table 3-1,western subbituminous coal fly ash
+Uranium-238,Not rank-specific (mixed facilities),leachate_concentration,0.43,pCi/L (median),50,0.004-20.1 (66% between 0.004-1.0),EPRI CPInfo Database via EPRI 2014 Section 3,50 samples from 18 CCP management facilities; impoundments+landfills combined
+Uranium-238,Not rank-specific (Midwest facilities),leachate_concentration,<1,pCi/L (all samples),18,all samples below 1 pCi/L,EPRI 2008 (Gross Alpha and Gross Beta Measurements in CCP Leachate, EPRI 1015546) via EPRI 2014
+Thorium-232,Bituminous,fly_ash_bulk_activity,1.97,pCi/g,30,0.27-3.24,Roper et al. 2013 via EPRI 2014 Table 3-1,
+Thorium-232,Subbituminous,fly_ash_bulk_activity,2.19,pCi/g,9,1.43-2.97,Roper et al. 2013 via EPRI 2014 Table 3-1,subbituminous slightly HIGHER than bituminous for Th (opposite of U pattern)
+Thorium-232,All US coal ash (calculated avg),fly_ash_bulk_content,36,mg/kg (~4 pCi/g),,order-of-magnitude estimate,EPRI 2014 Table 1-1 / USGS 1997 methodology,calculated as ~10x coal content assuming 10% ash yield
+Radium-226,All US coal ash (calculated avg),fly_ash_bulk_activity,7,pCi/g,,order-of-magnitude estimate,EPRI 2014 Table 1-1,assumes secular equilibrium with U-238
+Radium-226,Not rank-specified,fly_ash_bulk_activity,4.64,pCi/g,,,Zielinski and Budahn 1998 via EPRI 2014 Table 1-1,
+Radium-226,Not rank-specified,leachate_concentration,<1,pCi/L (detected in 20% of samples),18,,EPRI 2008 (1015546) via EPRI 2014,Midwest facilities; when detected
+Gross Alpha (alpha emitters, general),Lignite (non-US: Yugoslavia),leachate_concentration,<10,pCi/L,,,Vukovic et al. 1996 via EPRI 2014 Section 3
+Gross Alpha,Regulatory reference point,drinking_water_MCL,15,pCi/L,,,EPA National Primary Drinking Water Regulations,federal MCL for gross alpha (excluding radon and uranium) - reference point
+Arsenic,Bituminous,leaching_pattern,significantly higher than subbituminous,qualitative,,,Wang et al. 2009 (Energy & Fuels) via Schwartz et al. 2018 and Leaching Characteristics of As/Se from CFA,mechanism: lower CaO content / near-neutral pH -> less self-immobilization via Ca precipitation
+Arsenic,Subbituminous,leaching_pattern,often below detection under most conditions tested,qualitative,,,Wang et al. 2009 via Schwartz et al. 2018,mechanism: high CaO (>15%) drives alkaline pH 11-12 -> Ca precipitation scavenges arsenate from solution
+Arsenic,Not rank-specific,drinking_water_MCL,10,ug/L,,,EPA National Primary Drinking Water Regulations,federal MCL - reference point
+Selenium,Bituminous,leaching_pattern,"more readily leachable than As, both types",qualitative,,,Wang et al. 2009 via Schwartz et al. 2018,"selenate (soluble) vs selenite (adsorbed) speciation is the controlling factor, not rank alone"
+Boron,Not cleanly rank-differentiated in sources found,leachate_concentration_range,1 to 14,mg/L (ppm),,typical CCR leachate range,US patent literature citing EPRI-sourced data (US Patent 12269755 and 11014830),"boron is the most mobile major CCR tracer element - doesn't precipitate readily; high salinity retains it via adsorption, low salinity favors desorption/leaching regardless of coal rank"
+Boron,Field data - North Carolina CCR ponds,effluent_concentration,10 to 100x background,relative,,,"Ruhl et al. via Duke/Vengosh group, cited in EPA-HQ-OLEM-2017-0286 boron report",exceeded NC groundwater standard of 0.7 mg/L in most contaminated samples in the cited 2012 NC study
+Boron,Regulatory reference,who_guideline,2.4,mg/L,,,World Health Organization drinking water guideline,for comparison only
+Chromium,Not well rank-differentiated in sources found,leaching_pattern,pH-dependent; hexavalent Cr(VI) behavior can diverge from As/Se pattern,qualitative,,,"General CCR leaching literature (Springer 'Leaching of Major and Trace Elements from Coal Ash'; EPRI 'Coal Ash: Characteristics, Management and Environmental Issues')",HONEST GAP: did not find a clean rank-comparative dataset as strong as the As/Se studies - treat any single number you find elsewhere with caution
+Chromium (total),Regulatory reference,drinking_water_MCL,100,ug/L,,,EPA National Primary Drinking Water Regulations,federal MCL - reference point
+Lead,Not well rank-differentiated in sources found,leaching_pattern,generally low mobility under most pond pH; more soluble under acidic conditions,qualitative,,,General CCR leaching literature,HONEST GAP: no clean rank-comparative bituminous/subbituminous/lignite dataset located
+Lead,Regulatory reference,action_level,15,ug/L,,,EPA Lead and Copper Rule,this is an ACTION LEVEL under a different regulatory mechanism than a standard MCL - treat accordingly in code
+Cadmium,Not well rank-differentiated in sources found,leaching_pattern,generally low mobility; precipitates under alkaline conditions typical of subbituminous/lignite ash,qualitative,,,General CCR leaching literature,HONEST GAP: no clean rank-comparative dataset located
+Cadmium,Regulatory reference,drinking_water_MCL,5,ug/L,,,EPA National Primary Drinking Water Regulations,federal MCL - reference point
+Mercury,Not well rank-differentiated in sources found,leaching_pattern,largely retained on unburned carbon / injected activated carbon rather than water-leachable,qualitative,,,General CCR leaching literature + fly ash beneficiation literature (activated carbon injection context),HONEST GAP: no clean rank-comparative leachate dataset located; most Hg in CCPs stays solid-bound
+Mercury,Regulatory reference,drinking_water_MCL,2,ug/L,,,EPA National Primary Drinking Water Regulations,federal MCL - reference point
+Real-world contamination example,San Miguel Power Plant TX,field_observation,>100x MCL for 12 pollutants including cadmium and lithium,qualitative,,,World Socialist Web Site article citing Earthjustice/EIP groundwater data compilation,verify against primary EPA ECHO / facility groundwater monitoring reports before using in code
+Real-world contamination example,New Castle Generating Station PA,field_observation,arsenic 372x MCL,qualitative,,,World Socialist Web Site article citing Earthjustice/EIP groundwater data compilation,verify against primary source before using in code

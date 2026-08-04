@@ -1,0 +1,25 @@
+# Byte-compiled files and caches Python creates automatically when the code runs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# The private virtual environment folder (Part 3/5 of the setup guide) --
+# everyone who runs this project creates their own copy of this locally,
+# so it never needs to be shared or stored on GitHub
+.venv/
+venv/
+env/
+
+# Operating-system junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific settings folders (personal to each computer)
+.vscode/
+.idea/
+
+# Packaging/build leftovers, in case Python ever generates these
+*.egg-info/
+build/
+dist/
