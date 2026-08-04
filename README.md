@@ -4,7 +4,7 @@ A Python model estimating projected contaminant leaching and groundwater
 transport from coal fly ash ponds, organized by U.S. Census region, at 5/10/20 years
 (and more) Built from literature review of EPA/Site avarages/Reigonal data.
 
-## READ THIS FIRST — what this model is and isn't
+##  what this model is and isn't
 
 **This is a screening/planning-level model, not a site-specific regulatory
 determination.** It uses one analytical (closed-form) 1-D transport solution,
